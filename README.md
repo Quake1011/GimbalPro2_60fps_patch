@@ -1,5 +1,7 @@
 # Gimbal Pro 2 60 FPS patch
 
+Репозиторий: [Quake1011/GimbalPro2_60fps_patch](https://github.com/Quake1011/GimbalPro2_60fps_patch)
+
 Простой локальный патч для приложения **Gimbal Pro** / `com.jxrobot.android.smoothcam`.
 
 Цель: пересобрать приложение на вашем компьютере так, чтобы основной режим записи видео использовал **60 fps** вместо **30 fps**.
@@ -107,7 +109,8 @@ java -version
 Пример:
 
 ```powershell
-cd C:\path\to\GimbalPro-60fps-patch-public
+git clone https://github.com/Quake1011/GimbalPro2_60fps_patch.git
+cd GimbalPro2_60fps_patch
 ```
 
 Запустите сборку:
